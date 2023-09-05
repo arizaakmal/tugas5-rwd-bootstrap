@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img.d-block {
+  height: 100vh;
+}
+
+input[type="search"]::placeholder {
+  color: #999;
+}
+
+.card-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.img {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
